@@ -10,4 +10,8 @@ const repeat = (word, num) => {
   return (word + ' ').repeat(num).trim();
 };
 
+const startOfWord = (word, num) => {
+  return word.substring(0, num);
+};
+
 module.exports = {echo: echo, shout: shout, repeat: repeat, startOfWord: startOfWord, firstWord: firstWord};
